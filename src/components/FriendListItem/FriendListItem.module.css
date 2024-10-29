@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid, black;
+  min-width: 210px;
+  border-radius: 20px;
+  padding: 16px;
+}
+.image {
+  width: 240px;
+  margin-bottom: 34px;
+}
+.name {
+  font-size: 80px;
+}
+.status {
+  font-size: 50px;
+}
+.isOnline {
+  color: #028002;
+}
+.isOffline {
+  color: #e50905;
+}
